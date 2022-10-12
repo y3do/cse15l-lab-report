@@ -33,6 +33,7 @@
 - The scp command stands for "secure copy" and it's used to move files from our local computer to the remote computer!
 - To start, start from your local computer. If you're on the remote computer already, type "exit" and you will return to the local computer.
 - Create a file called WhereAmI.java and copy this code into the file:
+
 ```java
 class WhereAmI {
   public static void main(String[] args) {
@@ -69,8 +70,8 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 - You will be prompted to enter a file to save the key. Press enter and keep track of the default location that the file is sent. For Windows, you need to follow the extra ssh-add steps [here](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 - You now have 2 files in the default directory, id_rsa and id_rsa.pub. It's stored in the ssh directory of your computer. 
 - To start authenticating with SSH, copy the public key to the .ssh directory of your user account on the server by following these commands:
-```
 
+```
 # This is client
 
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
