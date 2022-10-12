@@ -25,4 +25,6 @@
 - Afterwards, the system will prompt you to verify the authenticity of the host. Type yes, give your password, and you should get a message that starts with "Now on remote server." Congratulations! You've entered the remote server on one of the UCSD computers in the CSE basement.
 
 ## Step 5: Running some commands
-- You can test out some commands on the remote server. Try testing out commands like ls, 
+- You can test out some commands on the remote server. Try testing out commands like ls, cd, pwd, mkdir, and cp. 
+- For example, here's the result that happens when I type "ls" onto the remote server.
+- ![Command](command.png)

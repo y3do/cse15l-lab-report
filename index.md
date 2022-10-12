@@ -1,12 +1,9 @@
 # Index for y3do
 
-- [[test]] (just for fun!)
+- [test](Other Projects/test.md)
 
-- ![[lab-report-0-week-0]]
-- [[lab-report-1-week-1]]
-
-![[Pasted image 20221012131635.png]]![[Pasted image 20221012131643.png]]
-
+- ![Lab Report 0](Lab Report 0/lab-report-0-week-0.md)
+- [Lab Report 1](Lab Report 1/lab-report-1-week-1.md)
 
 **Testing markdown**
 
