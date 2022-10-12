@@ -8,3 +8,5 @@
 **Testing markdown**
 
 ```Very interesting```
+
+![](Pasted%20image%2020221012140606.png)

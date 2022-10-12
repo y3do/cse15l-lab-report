@@ -43,16 +43,20 @@ class WhereAmI {
   }
 }
 ```
+
 - Afterwards, compile and run using commands 
+
 ```java
 javac WhereAmi.java
 java WhereAmI
 ```
 
 Finally, transfer the files using 
+
 ```
 scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
+
 - The file should be in the remote server now. Compile and run WhereAmI.java on the remote server using javac and java again, and the command should work!
 - Here's an example of me successfully running the WhereAmI.java command on the remote server!
 
@@ -66,16 +70,27 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 - You now have 2 files in the default directory, id_rsa and id_rsa.pub. It's stored in the ssh directory of your computer. 
 - To start authenticating with SSH, copy the public key to the .ssh directory of your user account on the server by following these commands:
 ```
+
 # This is client
+
 $ ssh cs15lfa22zz@ieng6.ucsd.edu
+
 (Entering password)
+
 # On server now
+
 mkdir .ssh
+
 exit
+
 # Back to client
-scp [The path to your public SSH key] cs15lfa22@ieng6.ucsd.edu~/.ssh/authorized_keys
+
+scp [The path to your public SSH key] 
+
+cs15lfa22@ieng6.ucsd.edu~/.ssh/authorized_keys
 
 ```
+
 - Some notes:
 - Remember to use your student ID when typing cs15lfa22zz@ieng6.ucsd.edu - replace zz with your specific student code.
 - This is what the result should look like after you set this up! Cool that you don't have to type in your password anymore, huh?
@@ -87,5 +102,6 @@ scp [The path to your public SSH key] cs15lfa22@ieng6.ucsd.edu~/.ssh/authorized_
 ```
 ssh cs15lfa22@ieng6.ucsd.edu "ls"
 ```
+
 - add your id after the fa22 and it will list all the files on the current directory of the remote server! Neat!
 ![remote](remotecommands.png)

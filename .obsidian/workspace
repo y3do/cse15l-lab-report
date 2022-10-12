@@ -1,0 +1,135 @@
+{
+  "main": {
+    "id": "ae31995c3847121b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ca8ebe702f9244b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "labreport1/lab-report-1-week-1.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0392412b7d3f07be",
+    "type": "split",
+    "children": [
+      {
+        "id": "e03c71a808cb450c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e04eb2f7a14096d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0561db1c39ab42f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c0403d146a989b65",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39b961bcea25ba2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f7ed54c325c010a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bae80d0ef42ada4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "labreport1/lab-report-1-week-1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "570e2a319c333c2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "labreport1/lab-report-1-week-1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "99a2b5a64d33fee4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3cd55a4853029789",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "labreport1/lab-report-1-week-1.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "3ca8ebe702f9244b",
+  "lastOpenFiles": [
+    "index.md"
+  ]
+}
