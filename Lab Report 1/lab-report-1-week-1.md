@@ -17,13 +17,12 @@
 - ![VSCode](vscode.png)
 
 ## Step 4: Remotely connecting
-- PS: I wasn't able to get past this part, so I can't explain anything further. But simply put, on a terminal (either mac or visual studio) type in ```ssh cs15lfa22zz@ieng6.ucsd.edu``` and replace the ```zz``` with your specific student name for the course.
+- Before beginning this step, check to see if your OS is Windows. If not, you're fine. If you are on windows though, there is an extra step: [Install OpenSSH for Windows (not the client, not the server)](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui). 
+- On the terminal in either visual studio or your native device, type in ```ssh cs15lfa22zz@ieng6.ucsd.edu``` and replace the ```zz``` with your specific student name for the course.
+- You can find your cse 15l-specific course username at [this link](https://sdacs.ucsd.edu/~icc/index.php) after typing in your UCSD account credentials.
 - Afterwards, the system will prompt you to agree to connect, since this connection is the first time. Type "yes" then type your password to the course-specific account.
 - ![terminal](terminal.png) 
+- Afterwards, the system will prompt you to verify the authenticity of the host. Type yes, give your password, and you should get a message that starts with "Now on remote server." Congratulations! You've entered the remote server on one of the UCSD computers in the CSE basement.
 
-
-
-I am currently stuck on the authentication process of logging into the remote server.
-
-## Step 5: 
-
+## Step 5: Running some commands
+- You can test out some commands on the remote server. Try testing out commands like ls, 

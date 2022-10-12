@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Lab Report 1/lab-report-1-week-1.md",
+            "file": "index.md",
             "mode": "source",
             "source": false
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "65832e09463cef32",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lab Report 1/lab-report-1-week-1.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lab Report 1/lab-report-1-week-1.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lab Report 1/lab-report-1-week-1.md"
+                "file": "index.md"
               }
             }
           }
@@ -131,8 +130,8 @@
   },
   "active": "2fcda36a4773874a",
   "lastOpenFiles": [
-    "index.md",
     "Lab Report 1/lab-report-1-week-1.md",
+    "index.md",
     "Other Projects/test.md"
   ]
 }
