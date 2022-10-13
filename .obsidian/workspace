@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "39b961bcea25ba2f",
@@ -131,8 +130,11 @@
   },
   "active": "2986692d65ef6f61",
   "lastOpenFiles": [
-    "index.md",
+    "labreport2/Pasted image 20221012181408.png",
+    "labreport2/Pasted image 20221012180352.png",
     "labreport2/Lab Report 2.md",
+    "index.md",
+    "Pasted image 20221012180351.png",
     "labreport1/testerer.md",
     "labreport1/testeewewew.md",
     "labreport1/command.png",
