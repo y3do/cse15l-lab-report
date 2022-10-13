@@ -17,6 +17,7 @@ Here is the list of commands that I've made. All of these commands start from th
 
 ## Query
 Searching for hi in my search engine:
+
 ![](Pasted%20image%2020221012181408.png)
 - Another urlPath() method is used to search for specific strings. The program searches for the string "search" in the path and uses similar methods to the add method for analyzing the search data. 
 	- It uses the getQuery() method to split the strings in between the = sign
