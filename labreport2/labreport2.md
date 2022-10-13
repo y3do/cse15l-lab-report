@@ -1,11 +1,12 @@
-# Part 1: Search Engine
+# Lab Report 2, Week 3: Search Engines & Bugs!
+## Part 1: Search Engine
 Last week I was able to make a simple search engine that had commands!
 
 
 
 Here is the list of commands that I've made. All of these commands start from the handleRequest() method which gets the URL of the localhost. Then, if methods are implemented to test for certain arguments that reside after the localhost domain:
 
-## Add command
+### Add command
 ![](Pasted%20image%2020221012180352.png)
 - This code uses the url.getPath() method to check the path of the URL to see whether it includes the string "add."
 - It also uses the getQuery() method to get the query of the link. 
@@ -15,7 +16,7 @@ Here is the list of commands that I've made. All of these commands start from th
 - Throughout this if block, the saved arraylist adds the added string to its arraylist to check for valid strings.
 
 
-## Query
+### Query
 Searching for hi in my search engine:
 
 ![](Pasted%20image%2020221012181408.png)
@@ -25,18 +26,19 @@ Searching for hi in my search engine:
 	- Finally it analyzes the string on the right side by using the built-in contains() method to check if an arraylist contains the specific string
 
 
-## 404 not found
+### 404 not found
 ![](Pasted%20image%2020221012190434.png)
 - A possible outcome is the 404 not found error. For other values that are not checked in the url, the program returns the string "404 Not Found" to signal the user of the issue.
+- Because of the fact that this outcome is an outcome that encompasses most other outcomes, it has no methods involved in its result other than method handleRequest() that analyzes the url to see if the url does not match any defined cases.
 
-# Part 2 Buggy Code: 
-##  Reversed Method for ArrayList
+## Part 2 Buggy Code: 
+### Reversed Method for ArrayList
 -   **Failure producing input**: Two examples of failure producing inputs are inputting 2 different values. Another example is by inputting 3 different values.
 -   **Symptom**: In the first example, the second value of the first 2 values is forgotten after the loop, being replaced by the first value. In the second example, there is a "sandwich" that forms between the first and the last value, with both the first and last value matching the last value.
 -   **Bug**: The bug was within the for loop at the code **i < arrayLength**.
 - **Connection between symptom & bug:** The whole array was iterated through to attempt to reverse the array, but the array was not properly reversed since the values that would be changed in the second half would reflect the first values which were already changed and not the original value. A better implementation would've been to only loop through half of the array, making a temporary value to store the current value on the left, and then setting the left value to the right, and the right value to the temporary value which matched the former left value. 
 
-## Missing StringChecker implementation with filter method for Lists
+### Missing StringChecker implementation with filter method for Lists
 - **Failure producing input:** For this program, the one possible input would be null, and that one is a failing input.
 - **Symptom:** NullPointerException, because the function filter() cannot comprehend null at this point. 
 - **Bug:** The bug here is the line ****interface** StringChecker { **boolean** checkString(String s); }**.

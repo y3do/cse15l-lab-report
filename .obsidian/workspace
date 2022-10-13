@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "index.md",
+            "file": "labreport2/labreport2.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "labreport2/labreport2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "labreport2/labreport2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "labreport2/labreport2.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "2986692d65ef6f61",
   "lastOpenFiles": [
-    "labreport2/Pasted image 20221012190434.png",
-    "index.md",
+    "labreport1/labreport1.md",
     "labreport2/labreport2.md",
+    "index.md",
+    "labreport2/Pasted image 20221012190434.png",
     "labreport2/Pasted image 20221012180352.png",
     "labreport2/Pasted image 20221012181408.png",
     "Pasted image 20221012180351.png",
     "labreport1/testerer.md",
     "labreport1/testeewewew.md",
-    "labreport1/command.png",
-    "labreport1/Pasted image 20221012141725.png"
+    "labreport1/command.png"
   ]
 }
