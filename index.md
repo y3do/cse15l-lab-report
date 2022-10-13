@@ -2,9 +2,9 @@
 
 - [test](other/test.md)
 
-- [Lab Report 0](labreport0/lab-report-0-week-0.md)
-- [Lab Report 1](labreport1/lab-report-1-week-1.md)
-- [[labreport2/Lab Report 2]]
+- [Lab Report 0](labreport0/labreport0.md)
+- [Lab Report 1](labreport1/labreport1.md)
+- [Lab Report 2](labreport2/labreport2.md)
 
 **Testing markdown**
 

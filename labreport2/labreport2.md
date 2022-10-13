@@ -26,7 +26,7 @@ Searching for hi in my search engine:
 
 
 ## 404 not found
-![](../Pasted%20image%2020221012190434.png)
+![](Pasted%20image%2020221012190434.png)
 - A possible outcome is the 404 not found error. For other values that are not checked in the url, the program returns the string "404 Not Found" to signal the user of the issue.
 
 # Part 2 Buggy Code: 
