@@ -9,7 +9,9 @@ class ListExamples implements StringChecker {
 @Override
 public boolean checkString(String s) {
 	// TODO Auto-generated method stub
-	return false;
+	
+	return s.length() > 4;
+	
 }
 	
 	
@@ -52,11 +54,5 @@ public boolean checkString(String s) {
     }
     return result;
   }
-
-
-  
-  
-  
-
-
 }
+

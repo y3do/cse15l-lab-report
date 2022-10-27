@@ -2,7 +2,67 @@
 ## Part 1: Search Engine
 Last week I was able to make a simple search engine that had commands!
 
+Here's the code for the search engine that I created (SearchEngine.java):
 
+```java
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class Handler2 implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    String s = "";
+    ArrayList<String> saved = new ArrayList<String>();
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+            return String.format("String: %s", s + "\n\n");
+        } else if (url.getPath().equals("/increment")) {
+            s += "s";
+            return String.format("String incremented!");
+        } 
+        else {
+            System.out.println("Path: " + url.getPath());
+            if (url.getPath().contains("/add")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    s += (parameters[1]);
+                    
+                    saved.add(parameters[1]);
+                    
+                    return parameters[1] + " added";
+                }
+            }
+            if (url.getPath().contains("/search")) {
+                String[] parameters = url.getQuery().split("=");
+                if (parameters[0].equals("s")) {
+                    if (saved.contains(parameters[1])) {
+                    	return parameters[1];
+                    } else {
+                    	return "Not found";
+                    }
+                }
+            }
+            return "404 Not Found!";
+        }
+    }
+}
+
+class SearchEngine {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler2());
+    }
+}
+
+```
 
 Here is the list of commands that I've made. All of these commands start from the handleRequest() method which gets the URL of the localhost. Then, if methods are implemented to test for certain arguments that reside after the localhost domain:
 
@@ -38,8 +98,15 @@ Searching for hi in my search engine:
 -   **Bug**: The bug was within the for loop at the code **i < arrayLength**.
 - **Connection between symptom & bug:** The whole array was iterated through to attempt to reverse the array, but the array was not properly reversed since the values that would be changed in the second half would reflect the first values which were already changed and not the original value. A better implementation would've been to only loop through half of the array, making a temporary value to store the current value on the left, and then setting the left value to the right, and the right value to the temporary value which matched the former left value. 
 
-### Missing StringChecker implementation with filter method for Lists
-- **Failure producing input:** For this program, the one possible input would be null, and that one is a failing input.
-- **Symptom:** NullPointerException, because the function filter() cannot comprehend null at this point. 
-- **Bug:** The bug here is the line ****interface** StringChecker { **boolean** checkString(String s); }**.
-- **Connection between symptom & bug**: Because this StringChecker is only an interface, the only possible input would be null, which would lead to a nullpointerexception. One cannot use the checkString method in the StringChecker interface because the method was only described in the interface, not implemented. A better implementation would be to implement the method in the first place!
+### Filter Method for List
+- **Failure producing input:** The example of a failure producing input would be inputting more than one string that is valid for the code that you choose to implement for StringChecker.
+- **Symptom:** Although the method claims to add filtered/valid strings in the order they appeared in the input list, this is not the case. The filter method removes the invaild methods from the list, but returns the valid elements in the opposite order!
+	- For example, look at the original input versus expected input in this junit test:
+		- ![](../Pasted%20image%2020221027101442.png)
+		- Here's a snippet of my original vs expected lists in this test for reference (no and noo are invalid for my StringChecker implementation which validifies strings longer than 4 characters):
+			- ![](../Pasted%20image%2020221027102322.png)
+			- ![](../Pasted%20image%2020221027102332.png)
+		- Basically, the filter did its job by removing extraneous elements, but the order of the valid elements is reversed.
+- **Bug:** The bug here is this code block: 
+	- ![](../Pasted%20image%2020221027101559.png)
+- **Connection between symptom & bug**: Since the filter method loops from the beginning of the list, but brings every valid string to the 0th index (which bumps the values at that index up a level based on the java documentation), the order of the list is reversed. In essence this is the same thing as a **prepend** method which uses the same functionality. The easiest way to fix this implementation would be to simply remove the **first parameter** in the line **result.add(0, s).** So instead, the code would simply be **result.add(s)**. This would allow the valid values to be placed in the correct order. 

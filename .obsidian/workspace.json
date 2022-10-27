@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "ae31995c3847121b",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f10c4ae02e4cd5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2986692d65ef6f61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "labreport2/labreport2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0392412b7d3f07be",
+    "type": "split",
+    "children": [
+      {
+        "id": "e03c71a808cb450c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8e04eb2f7a14096d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0561db1c39ab42f4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c0403d146a989b65",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "39b961bcea25ba2f",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f7ed54c325c010a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bae80d0ef42ada4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "labreport2/labreport2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "570e2a319c333c2a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "labreport2/labreport2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "99a2b5a64d33fee4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3cd55a4853029789",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "labreport2/labreport2.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "2986692d65ef6f61",
+  "lastOpenFiles": [
+    "labreport2/Pasted image 20221012190434.png",
+    "labreport2/Pasted image 20221012181408.png",
+    "labreport2/Pasted image 20221012180352.png",
+    "labreport2/labreport2.md",
+    "index.md",
+    "labreport1/labreport1.md",
+    "Pasted image 20221012180351.png",
+    "labreport1/testerer.md",
+    "labreport1/testeewewew.md",
+    "labreport1/command.png"
+  ]
+}
