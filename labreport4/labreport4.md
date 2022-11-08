@@ -11,6 +11,7 @@ After doing the find-and-replace command described in ```:%s/start/base```, vim 
 ```4 substitutions on 4 lines```
 
 Finally, I save and quit my files with ```:wq```: and return to the terminal output screen:
+
 ![](../Pasted%20image%2020221107191720.png)
 
 The program now has all of the 
