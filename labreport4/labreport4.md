@@ -12,7 +12,7 @@ After doing the find-and-replace command described in ```:%s/start/base```, vim 
 
 Finally, I save and quit my files with ```:wq```: and return to the terminal output screen:
 
-![](../Pasted%20image%2020221107191720.png)
+![](../other/Pasted%20image%2020221107191720.png)
 
 The program now has all of the 
 ```start``` parameter and its uses into ```base```.

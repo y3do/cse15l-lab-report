@@ -1,3 +1,12 @@
+**Testing markdown**
+
+```Very interesting```
+
+
+![](other/Pasted%20image%2020221012142350.png)
+
+
+
 Hello world!
 
 *Testing italics*

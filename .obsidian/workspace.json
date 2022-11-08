@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "labreport4/labreport4.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "labreport4/labreport4.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "labreport4/labreport4.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "labreport4/labreport4.md"
+                "file": "index.md"
               }
             }
           }
@@ -151,15 +151,15 @@
   },
   "active": "262be90252fdee0e",
   "lastOpenFiles": [
-    "labreport3/labreport3.md",
+    "other/test just for fun.md",
     "index.md",
+    "other/Week 4 - Docsearch/README.md",
+    "other/wavelet/README.md",
+    "other/Pasted image 20221107191720.png",
     "labreport4/labreport4.md",
+    "labreport3/labreport3.md",
     "labreport2/labreport2.md",
-    "Pasted image 20221027102332.png",
-    "labreport2/Pasted image 20221012190434.png",
-    "labreport2/Pasted image 20221012181408.png",
-    "labreport2/Pasted image 20221012180352.png",
-    "labreport1/labreport1.md",
-    "Pasted image 20221012180351.png"
+    "other/Pasted image 20221027102332.png",
+    "labreport2/Pasted image 20221012190434.png"
   ]
 }

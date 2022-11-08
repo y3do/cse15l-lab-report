@@ -102,11 +102,11 @@ Searching for hi in my search engine:
 - **Failure producing input:** The example of a failure producing input would be inputting more than one string that is valid for the code that you choose to implement for StringChecker.
 - **Symptom:** Although the method claims to add filtered/valid strings in the order they appeared in the input list, this is not the case. The filter method removes the invaild methods from the list, but returns the valid elements in the opposite order!
 	- For example, look at the original input versus expected input in this junit test:
-		- ![](../Pasted%20image%2020221027101442.png)
+		- ![](../other/Pasted%20image%2020221027101442.png)
 		- Here's a snippet of my original vs expected lists in this test for reference (no and noo are invalid for my StringChecker implementation which validifies strings longer than 4 characters):
-			- ![](../Pasted%20image%2020221027102322.png)
-			- ![](../Pasted%20image%2020221027102332.png)
+			- ![](../other/Pasted%20image%2020221027102322.png)
+			- ![](../other/Pasted%20image%2020221027102332.png)
 		- Basically, the filter did its job by removing extraneous elements, but the order of the valid elements is reversed.
 - **Bug:** The bug here is this code block: 
-	- ![](../Pasted%20image%2020221027101559.png)
+	- ![](../other/Pasted%20image%2020221027101559.png)
 - **Connection between symptom & bug**: Since the filter method loops from the beginning of the list, but brings every valid string to the 0th index (which bumps the values at that index up a level based on the java documentation), the order of the list is reversed. In essence this is the same thing as a **prepend** method which uses the same functionality. The easiest way to fix this implementation would be to simply remove the **first parameter** in the line **result.add(0, s).** So instead, the code would simply be **result.add(s)**. This would allow the valid values to be placed in the correct order. 
