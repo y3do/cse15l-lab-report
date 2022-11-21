@@ -1,4 +1,4 @@
-# Researching Commands
+**# Researching Commands
 
 ## Find: My chosen command
 - I chose the "find" command to test in my week 5 lab report. Overall, the asterisk is very compelling and I've noticed the capability of the tool.
