@@ -21,10 +21,12 @@ The program now has all of the
 
 Since my replacement is achieved through only one command, it is only necessary to give a few screenshots. One for the **before** phase, and one for the **after** phase.
 
-Here are the areas that match the word "start" in DocSearchServer.java: 
+**Here are the areas that match the word "start" in DocSearchServer.java:** 
 ![](Screen%20Shot%202022-11-29%20at%201.34.35%20PM.png)
 ![](Screen%20Shot%202022-11-29%20at%201.35.46%20PM.png)
-Here are the same areas, replaced with the word "base" through my command in vim!
+
+**Here are the same areas, replaced with the word "base" through my command in vim!**
+
 ![](Screen%20Shot%202022-11-29%20at%201.38.06%20PM.png)
 ![](Screen%20Shot%202022-11-29%20at%201.38.58%20PM.png)
 **NOTE:** I am presenting the code in Visual Studio Code's code editor rather than vim because visual studio code's code editor is more visually appealing, and the search function allows me to have the words highlighted for more visibility. If I chose to use vim, the code would look the same except it would have no color.
