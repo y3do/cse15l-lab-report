@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f10c4ae02e4cd5e",
+        "id": "eb5da9a74566c37e",
         "type": "tabs",
         "children": [
           {
-            "id": "71e1efca4a0282ae",
+            "id": "26d3ade941331f66",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "39b961bcea25ba2f",
@@ -137,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "71e1efca4a0282ae",
+  "active": "26d3ade941331f66",
   "lastOpenFiles": [
-    "labreport3/labreport3.md",
+    "labreport5/Pasted image 20221120091043.png",
     "labreport5/labreport5.md",
+    "labreport3/labreport3.md",
     "index.md",
     "labreport4/labreport4.md",
     "other/test just for fun.md",
     "other/Week 4 - Docsearch/README.md",
     "other/wavelet/README.md",
     "other/Pasted image 20221107191720.png",
-    "labreport2/labreport2.md",
-    "other/Pasted image 20221027102332.png"
+    "labreport2/labreport2.md"
   ]
 }

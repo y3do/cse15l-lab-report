@@ -66,13 +66,13 @@ exit 0 # Exit code 0 indicates successful running
 Here are some screenshots of my grading scripts in action. **Note that my grading script uses a Pass/Fail grading system, so there is no need to report a percentage in my script's case.** 
 
 ## Screenshot 1: Perfect Repo
-![](../Pasted%20image%2020221120090517.png)
+![](Pasted%20image%2020221120090517.png)
 
 ## Screenshot 2: Compile Error
-![](../Pasted%20image%2020221120090950.png)
+![](Pasted%20image%2020221120090950.png)
 
 ## Screenshot 3: ListExamples.java exists, but is in the wrong directory
-![](../Pasted%20image%2020221120091043.png)
+![](Pasted%20image%2020221120091043.png)
 
 # Trace of Compilation Error for Program in Screenshot 2
 
